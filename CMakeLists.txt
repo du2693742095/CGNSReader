@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.19)
+
+project(CGNSReader LANGUAGE C CXX)
+
+# 设置全局输出目录
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output)
+
+
