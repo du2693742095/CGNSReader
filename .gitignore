@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# ignore folders
+.vs
+out
+output
+
 # Compiled Object files
 *.slo
 *.lo
