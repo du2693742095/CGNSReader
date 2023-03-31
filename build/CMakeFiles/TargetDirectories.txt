@@ -1,0 +1,3 @@
+D:/Git/CGNSReader/build/CMakeFiles/ALL_BUILD.dir
+D:/Git/CGNSReader/build/CMakeFiles/ZERO_CHECK.dir
+D:/Git/CGNSReader/build/src/CMakeFiles/CGNSReader.dir

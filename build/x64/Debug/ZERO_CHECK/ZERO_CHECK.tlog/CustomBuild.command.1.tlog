@@ -1,0 +1,10 @@
+^D:\GIT\CGNSREADER\BUILD\CMAKEFILES\4B6FB3EF37F4817D2FE6610943CA71A3\GENERATE.STAMP.RULE
+setlocal
+D:\Program\CMake\bin\cmake.exe -SD:/Git/CGNSReader -BD:/Git/CGNSReader/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Git/CGNSReader/build/CGNSReader.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
